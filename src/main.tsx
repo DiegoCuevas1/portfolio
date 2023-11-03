@@ -5,20 +5,14 @@ import {createBrowserRouter, RouterProvider} from "react-router-dom"
 import 'tailwindcss/tailwind.css'
 import Root from './routes/root';
 import ErrorPage from './error-page';
+import Landing from "./components/Landing";
 
-import AboutMe from './routes/root';
 
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <Root />,
+    element: [<Landing />, <Root />,],
     errorElement: <ErrorPage />,
-    children:[
-      {
-        path:"portfolio",
-        element:<AboutMe />
-      }
-    ]
   },
 ]);
 
