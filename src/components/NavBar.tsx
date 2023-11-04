@@ -1,6 +1,6 @@
 function Navbar() {
   return (
-    <nav className="font-proxima space-y-4 flex flex-col mt-8">
+    <nav className="font-proxima space-y-4 flex flex-col pt-8">
       <div className="flex mx-auto">
         <h1 className="text-darkblue text-7xl">Diego Cuevas</h1>
       </div>

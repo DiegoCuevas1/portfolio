@@ -3,12 +3,12 @@ module.exports = {
     content: [
       "./src/**/*.{html,js,jsx,ts,tsx}",
     ],
-    // Other Tailwind CSS configuration options here
     theme:
     {
       extend: {
         colors:{
-          'darkblue':'#00336D',
+          'darkblue':'#191970',
+          'white':'#ededed'
         },
         fontFamily: {
           proxima: ['"Proxima Nova"', ...defaultTheme.fontFamily.sans]

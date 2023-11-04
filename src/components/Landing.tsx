@@ -14,7 +14,7 @@ export default function Landing()
                       I am a newly graduated Full-Stack Developer with a focus in User Experience and a passion in Accessibility.
                     </p>
                 </div>
-                <div className='mt-6'><a href='#portfolio' className='flex text-darkblue rounded-full p-2 text-5xl bg-white'><AiOutlineDown /></a></div>
+                <div className="mt-6 transform hover:scale-150 transition-transform duration-500"><a href="#portfolio" className="flex text-darkblue rounded-full p-2 text-5xl bg-white"><AiOutlineDown /></a></div>
             </div>
         </div>
     )

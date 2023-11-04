@@ -1,0 +1,25 @@
+/* about-me.css */
+
+.slide-out {
+    transform: translateY(-100%);
+    opacity: 0;
+    transition: transform 0.3s, opacity 0.3s;
+    overflow: hidden; /* Hide any overflowing content */
+    max-height: 0;
+    z-index: -1; /* Set the maximum height to 0 */
+  }
+  
+  .slide-in {
+    transform: translateY(0);
+    opacity: 1;
+    transition: transform 0.3s, opacity 0.3s;
+    max-height: 1000px; 
+    z-index: 1;/* Set a large value to ensure it expands fully */
+  }
+  
+.content-container {
+    display:relative;
+    overflow: hidden;
+    max-height: 1000px; /* Set a large value to ensure it expands fully */
+  }
+  
