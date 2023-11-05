@@ -5,7 +5,7 @@ export default function Projects()
     const [projects] = useState([
         {name:'Grey Graphics Website', title:'Full Stack Web Developer', description:'A freelance project to create the website for a Screen Printing company in New Jersey. Built the frontend using React/TailwindCSS, backend created with ExpressJS, and deployed using AWS Cloud services.',date:'Summer 2023',github:'https://github.com/DiegoCuevas1/GreyGraphics'},
         {name:'Greatings Frontend Website', title:'Frontend Designer & Developer',description:'Collaborated as part of a Frontend Development team to create the frontend of Greatings, a social media app. Designed wireframes using Figma, and later implemented using React/TailwindCSS.',date:'Fall 2023',github:''},
-        {name:'This Portfolio Website',title:'Full Stack Web Development', description:'My portfolio created using React/TailwindCSS, and deployed using AWS S3 Buckets and DNS Configuration.',date:'Fall 2023', github:'https://github.com/DiegoCuevas1/portfolio'}
+        {name:'Portfolio Website',title:'Full Stack Web Development', description:'My portfolio created using React/TailwindCSS, and deployed using AWS S3 Buckets and DNS Configuration.',date:'Fall 2023', github:'https://github.com/DiegoCuevas1/portfolio'}
     ]);
     return(
         <div className="flex flex-col space-y-4 pt-4">
