@@ -19,7 +19,6 @@ export default function Projects()
                     )
                 )}
                 </div>
-                <img src='/images/about-me1.jpg' width={400}/>
             </div>
             
         </div>
