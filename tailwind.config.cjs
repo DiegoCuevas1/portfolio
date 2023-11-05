@@ -8,7 +8,7 @@ module.exports = {
       extend: {
         colors:{
           'darkblue':'#191970',
-          'white':'#ededed'
+          'white':'#fefefe'
         },
         fontFamily: {
           proxima: ['"Proxima Nova"', ...defaultTheme.fontFamily.sans]

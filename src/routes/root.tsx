@@ -1,7 +1,7 @@
 import Navbar from '../components/NavBar.tsx'
 import AboutMe from '../components/about-me.tsx'
 import Contact from '../components/contact.tsx'
-import Projects from '../components/projects.tsx'
+import Projects from '../components/projects/projects.tsx'
 import Skills from '../components/skills/skills.tsx'
 
 export default function Root() {
