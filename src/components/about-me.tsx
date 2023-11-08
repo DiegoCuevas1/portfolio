@@ -20,7 +20,7 @@ export default function AboutMe()
 
     return(
         <div className="h-flex">
-            <div className="flex space-x-4 w-[50%] mx-auto">
+            <div className="flex flex-col md:flex-row space-x-4 w-full px-4 md:w-[50%] mx-auto">
                 <div className='flex flex-col'>
                     <p className="text-lg">
                         <span className='text-darkblue'>
@@ -50,7 +50,7 @@ export default function AboutMe()
                     </div>
                     <p className='text-lg text-darkblue'>I'm a recent graduate of the Digital Narrative & Interactive Design program at the University of Pittsburgh. With a strong foundation in programming, problem-solving, and a flair for creative storytelling, I'm well-prepared to embark on a career as a full-stack developer. My enthusiasm for technology, coupled with a passion for crafting immersive digital experiences, drives my pursuit of innovation at the intersection of creativity and technology.</p>
                  </div>
-                <img src="/images/about-me1.jpg" className="w-[20vw] h-[25vw] border-4 border-darkblue rounded-lg"/>
+                <img src="/images/about-me1.jpg" className="my-4 md:my-0 md:w-[20vw] md:h-[25vw] border-4 border-darkblue rounded-lg"/>
             </div>
         </div>
     )

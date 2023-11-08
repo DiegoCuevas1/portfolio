@@ -9,7 +9,7 @@ export default function Contact() {
       <p className="text-gray-600">
         Have a question or want to get in touch? Feel free to reach out!
       </p>
-      <div className="flex flex-col items-center">
+      <div className="flex flex-col  items-center">
         <div className="bg-white rounded-lg p-4 shadow-lg">
           <form onSubmit={handleSubmit}>
             <div className="mb-4">

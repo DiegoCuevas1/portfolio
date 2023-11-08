@@ -19,7 +19,7 @@ export default function Skills()
     return(
         <div className="flex flex-col bg-blue-200 pt-4 pb-6">
             <h2 className='text-4xl mx-auto text-darkblue'>Relevant Skills</h2>
-            <div className="grid grid-cols-5 gap-6 mx-auto mt-4">
+            <div className="md:px-8 grid md:grid-cols-5 grid-cols-2 gap-6 mx-auto mt-4">
                 {skills.map((skill, index) => (
                 <Card key={index} skill={skill} />
                 ))}
