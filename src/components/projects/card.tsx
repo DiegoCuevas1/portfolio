@@ -11,14 +11,13 @@ export type ProjectProps = {
 
 type CardProps = {
     project: ProjectProps,
-    onCardClick: (project: ProjectProps) => void;
 };
 
 
 
-export default function Card({ project, onCardClick }: CardProps) {
+export default function Card({ project }: CardProps) {
     return (
-        <div onClick={() => onCardClick(project)}  className="relative group flex flex-col bg-[#fff] p-4 rounded-md border-2 border-darkblue hover:bg-blue-200 hover:scale-[1.05] hover:shadow-lg hover:cursor-pointer transition-all">
+        <div  className="relative group flex flex-col bg-[#fff] p-4 rounded-md border-2 border-darkblue transition-all">
             <div className="flex items-center">
                 <p className="font-bold text-lg ">{project.name}</p>
                 <p className="items-center ml-auto">{project.date}</p>
