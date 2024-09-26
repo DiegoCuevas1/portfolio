@@ -25,7 +25,7 @@ export default function AboutMe()
                     <p className="text-lg">
                         <span className='text-darkblue'>
                             Hey again! I'm a creative problem solver and aspring full-stack developer from New Jersey. 
-                            I am graduating from The University of Pittsburgh in December 2023.
+                            I graduated from The University of Pittsburgh in December 2023 with a Bachelor's of Science.
                             I have always had a passion for Technology, from video games to all things computer, that naturally led me to 
                             my major, 
                         </span>
